@@ -12,11 +12,11 @@ Documentation and datasheet for the **SMT Caddy MTI**, a manual SMD tape feeder 
 
 The MTI holds a strip of cut SMD tape and presents one component at a time at a fixed pick zone, for hand placement with a vacuum pen, tweezers or any manual or home-built pick-and-place setup.
 
-- **Advance:** a full press of the plunger moves the tape up to 6.0 mm. You can press it with a fingertip or with the plastic body of a pickup stylus.
+- **Advance:** a full press of the plunger moves the tape up to 6.0 mm. Press it with a fingertip, the body of a stylus, or the stylus tip if it is rigid enough.
 - **Cover tape:** peeled automatically as the tape advances and discharged rearward, clear of the pick zone.
 - **Width:** each feeder is the tape width plus 2 mm, so feeders pack side by side on the rail.
 - **Widths from one base:** the base unit is configured for 8 mm tape. Extension kits convert it to 12, 16, 24 or 32 mm.
-- **ESD:** molded in electrically conductive carbon-fiber LCP and grounded through the DIN rail.
+- **ESD:** molded in electrically conductive carbon-fiber LCP (tens of ohms surface resistance) and grounded through the DIN rail, so the feeder does not build up charge.
 - **No motors, electronics or power.**
 
 ## Specifications
@@ -27,10 +27,12 @@ The MTI holds a strip of cut SMD tape and presents one component at a time at a 
 | Tape type | Cut tape, paper or embossed carrier | Not for reels |
 | Feeder width | W + 2 mm | 10 mm at W = 8 mm |
 | Advance per full press | up to 6.0 mm | |
+| Actuation | Fingertip, stylus body, or stylus tip | Stylus tip only if rigid enough |
 | Max carrier pocket depth | 13 mm | |
 | Cover tape handling | Auto peel, rear discharge | |
 | Mounting | 35 mm DIN (top-hat) rail | |
 | Housing material | Liquid crystal polymer, 30% carbon fiber (LCP-CF30) | |
+| Surface resistance | Tens of ohms (< 100 Ω) | Measured, two-probe; conductive class |
 | Origin | Designed, molded and assembled in the U.S. | Except one bearing |
 | Warranty | 1 year from delivery | Workmanship and early failure; customer pays shipping |
 
@@ -50,8 +52,9 @@ These are typical published values for 30% carbon-fiber reinforced LCP, not lot-
 
 ### Electrical / ESD
 
-- The housing is **conductive**, not just dissipative, so charge drains away instead of building up.
-- The ground path runs through the DIN rail. Use a steel rail, or on anodized aluminum rail, bare a contact point under the feeder. Bond the rail to your ESD ground.
+- **Conductive housing.** Measured surface resistance on molded parts is tens of ohms (under 100 Ω) with a two-probe meter; the exact reading depends on probe spacing, contact pressure and where the probes land. That is well inside the conductive class (below 1 × 10⁴ Ω, ANSI/ESD S541).
+- **What it does and doesn't do.** Components never touch the MTI; only the carrier and cover tape do, and component packaging tape is already made to be static-safe. The MTI is therefore not the ESD control for your parts. Its job is not to add to the problem: tape sliding over an insulating plastic feeder can charge it by friction and leave that charge next to the parts, while a grounded conductive housing drains it.
+- **Ground path** runs through the DIN rail. Use a steel rail, or on anodized aluminum rail, bare a contact point under the feeder. Bond the rail to your ESD ground.
 
 ## Compatibility
 
