@@ -66,7 +66,7 @@ The feeder must also be conductive or dissipative, not an insulator. The stiffes
 
 Gear teeth are accurate to under 0.01 mm, tooth to tooth and gear to gear.
 
-Printed versions end up wider, coarser or less durable, which breaks the 2 mm budget. Specs aside, one MTI is a dozen or more parts: material, printer wear, failed prints, setup, finishing and assembly would arguably cost more than the $22 to $35 an MTI sells for.
+A 0.6 mm wall can be printed, but printed that thin it's flimsy and weak, and printing can't match the detail and dimensional accuracy of a precision mold with precision processing. Printed versions end up wider, coarser or less durable, which breaks the 2 mm budget. Specs aside, one MTI is a dozen or more parts: material, printer wear, failed prints, setup, finishing and assembly would arguably cost more than the $22 to $35 an MTI sells for.
 
 | | MTI (molded LCP, 30% carbon fiber) | SLA resin | FDM filament |
 |---|---|---|---|
