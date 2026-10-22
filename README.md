@@ -4,7 +4,7 @@ Documentation and datasheet for the **SMT Caddy MTI**, a manual SMD tape feeder 
 
 - Product page: https://smtcaddy.com/MTI
 - Video overview: https://youtu.be/UB94PlbSV4s
-- Manufacturer: SMT Caddy, a brand of Elantron, Inc., Riverside, California, USA
+- Manufacturer: SMT Caddy, Riverside, California, USA
 
 ---
 
